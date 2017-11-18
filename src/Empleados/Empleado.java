@@ -16,6 +16,8 @@ public abstract class Empleado {
     protected String puesto;
     protected double comisiones;
     protected double sueldoVacaciones;
+    protected String fechaDeIngreso;
+   
     
     public abstract void nomina();
     
@@ -37,5 +39,12 @@ public abstract class Empleado {
         this.sueldoVacaciones = sueldoVacaciones;
     }
     
+    public String getFechaDeIngreso() {
+        return fechaDeIngreso;
+    }
+
+    public void setFechaDeIngreso(String fechaDeIngreso) {
+        this.fechaDeIngreso = fechaDeIngreso;
+    }
     
 }
