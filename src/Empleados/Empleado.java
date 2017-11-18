@@ -15,6 +15,7 @@ public abstract class Empleado {
     protected String departamento;
     protected String puesto;
     protected double comisiones;
+    protected double sueldoVacaciones;
     
     public abstract void nomina();
     
@@ -27,5 +28,14 @@ public abstract class Empleado {
     public void setSueldo(double sueldo) {
         this.sueldo = sueldo;
     }
+
+    public double getSueldoVacaciones() {
+        return sueldoVacaciones;
+    }
+
+    public void setSueldoVacaciones(double sueldoVacaciones) {
+        this.sueldoVacaciones = sueldoVacaciones;
+    }
+    
     
 }
