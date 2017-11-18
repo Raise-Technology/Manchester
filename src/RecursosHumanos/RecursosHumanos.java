@@ -33,8 +33,6 @@ public class RecursosHumanos {
         
         Empleado empleado1 = new Vendedor();
         
-        System.out.println("Modificado por Jorge");
-        
         
         
         
